@@ -1,0 +1,22 @@
+#  MyApp Docker Containers (5)                                                              #
+#        myloc-assets --> soca/isoin-iot-assets                                                 #
+#        myloc-server --> soca/isoin-iot-server   (expose 6080 http)                            #
+#        myloc-database --> mysql:5.7  (expose 6005 mysql)                                      #
+#        myloc-database-data --> tianon/true "Map volume to containers"                         #
+#        <"noname" distribution-data-container> --> soca/isoin-iot-database-data-volume       #
+#                                                                                             #
+FROM node:alpine
+
+# Create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY ../package.json /usr/src/app/
+RUN npm install
+
+# Bundle app source
+COPY .. /usr/src/app
+
+EXPOSE 8080
+CMD [ "npm", "start" ]

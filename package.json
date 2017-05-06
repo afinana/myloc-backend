@@ -29,4 +29,5 @@
     "request": "^2.x",
     "should": "^11.x"
   }
+, "-vs-binding":{"Clean":["start"]}
 }

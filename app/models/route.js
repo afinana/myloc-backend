@@ -1,7 +1,9 @@
 /*jslint node: true */
 'use strict';
 
-var mongoose = require('mongoose'),
+var mongoose = require('mongoose')
+require('mongoose-double')(mongoose);
+
 
 var SchemaTypes = mongoose.Schema.Types;
 var Schema = mongoose.Schema;

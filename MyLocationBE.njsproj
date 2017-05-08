@@ -13,6 +13,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <StartWebBrowser>True</StartWebBrowser>
+    <NodeExeArguments>--debug</NodeExeArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -26,8 +27,6 @@
     <Compile Include="app\models\sos.js" />
     <Compile Include="app\models\user.js" />
     <Compile Include="app\routes\alert.js" />
-    <Compile Include="app\routes\geofence.js" />
-    <Compile Include="app\routes\user.js" />
     <Compile Include="db-connection.js" />
     <Compile Include="Gruntfile.js" />
     <Compile Include="log.js" />

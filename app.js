@@ -1,4 +1,5 @@
 /*jslint node: true */
+
 'use strict';
 
 var restify = require('restify');

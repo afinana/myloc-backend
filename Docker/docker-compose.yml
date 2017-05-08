@@ -1,0 +1,27 @@
+#  MyApp Docker Containers (5)                                                      #
+#        myloc-assets --> middleland/myloc-be-assets                                #
+#        myloc-server --> middleland/myloc-be-server(expose 6080 http)           #
+#        myloc-database --> mongo(expose 27017)                                      #
+#        myloc-database-data --> tianon/true "Map volume to containers"             #
+
+version: “2”
+services:
+  myloc-server:
+   build: .
+   volumes:
+    - ./:/app
+   ports:
+    - "3000:3000"
+   links:
+    - myloc-database
+  myloc-database:
+    image: mongo
+    ports:
+     - "27017:27017"
+    volumes_from:
+     - myloc-database-data
+myloc-database-data:
+    image: tianon/true
+    volumes:
+    - /data/db
+    command: echo 'Data Container for Auth_MongoDB'

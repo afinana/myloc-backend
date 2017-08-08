@@ -1,5 +1,10 @@
-#  MyLoc Docker file(1)                                                              #
-#        myloc-server --> soca/isoin-iot-server   (expose 3000 http)                 #
+#  MyApp Docker Containers (5)                                                                #
+#        myloc-assets --> myloc/myloc-rest-assets                                             #
+#        myloc-server --> myloc/myloc-rest-server   (expose 8080 http)                        #
+#        myloc-database --> mongodb:5.7  (expose 8090)                                        #
+#        myloc-database-data --> tianon/true "Map volume to containers"                       #
+#        <"noname" distribution-data-container> --> soca/isoin-iot-database-data-volume       #
+#                                                                                             #
 
 FROM node:alpine
 

@@ -3,17 +3,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6def200e-49d3-46e3-8293-a7f2f19c582e}</ProjectGuid>
+    <ProjectGuid>{989f6922-2e75-403a-9861-49340800bf37}</ProjectGuid>
     <ProjectHome />
     <ProjectView>ShowAllFiles</ProjectView>
     <StartupFile>app.js</StartupFile>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <StartWebBrowser>True</StartWebBrowser>
-    <NodeExeArguments>--debug</NodeExeArguments>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <Name>MyLocationBE</Name>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -22,33 +22,57 @@
     <Content Include="taco.json" />
     <Content Include="README.md" />
     <Compile Include="app.js" />
-    <Compile Include="app\models\geofence.js" />
-    <Compile Include="app\models\route.js" />
-    <Compile Include="app\models\sos.js" />
-    <Compile Include="app\models\user.js" />
-    <Compile Include="app\routes\alert.js" />
     <Compile Include="db-connection.js" />
     <Compile Include="Gruntfile.js" />
     <Compile Include="log.js" />
     <Compile Include="config\config.js" />
-    <Content Include="data\widgets.json" />
-    <Content Include="postman\localhost-restify.postman_environment.json" />
-    <Content Include="postman\Widgets.postman_collection.json" />
+    <Content Include="coverage\coverage.json" />
+    <Content Include="data\data.json" />
+    <Content Include="postman\localhost-restify-myloc.postman_environment.json" />
+    <Content Include="postman\MyLocation.postman_collection.json" />
     <Compile Include="spec\utils_spec.js" />
     <Compile Include="spec\widget_spec.js" />
+    <Compile Include="app\models\geofence.js" />
     <Compile Include="app\models\index.js" />
+    <Compile Include="app\models\route.js" />
+    <Compile Include="app\models\alert.js" />
+    <Compile Include="app\models\user.js" />
     <Compile Include="app\models\widget.js" />
+    <Compile Include="app\routes\alert.js" />
     <Compile Include="app\routes\index.js" />
     <Compile Include="app\routes\utilities.js" />
     <Compile Include="app\routes\widget.js" />
+    <Content Include="coverage\lcov-report\index.html" />
+    <Content Include="coverage\lcov-report\base.css" />
+    <Content Include="coverage\lcov-report\prettify.css" />
+    <Content Include="coverage\lcov-report\sort-arrow-sprite.png" />
+    <Compile Include="coverage\lcov-report\prettify.js" />
+    <Compile Include="coverage\lcov-report\sorter.js" />
+    <Content Include="coverage\lcov-report\myloc-backend\db-connection.js.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\index.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\log.js.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\config\config.js.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\config\index.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\spec\index.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\spec\utils_spec.js.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\spec\widget_spec.js.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\app\models\index.html" />
+    <Content Include="coverage\lcov-report\myloc-backend\app\models\widget.js.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app" />
     <Folder Include="app\models" />
     <Folder Include="app\routes" />
     <Folder Include="config" />
+    <Folder Include="coverage" />
+    <Folder Include="coverage\lcov-report" />
+    <Folder Include="coverage\lcov-report\myloc-backend" />
+    <Folder Include="coverage\lcov-report\myloc-backend\app" />
+    <Folder Include="coverage\lcov-report\myloc-backend\app\models" />
+    <Folder Include="coverage\lcov-report\myloc-backend\config" />
+    <Folder Include="coverage\lcov-report\myloc-backend\spec" />
     <Folder Include="data" />
-    <Folder Include="Docker" />
+    <Folder Include="docker" />
     <Folder Include="postman" />
     <Folder Include="spec" />
   </ItemGroup>

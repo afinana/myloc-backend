@@ -22,9 +22,6 @@ var alertSchema = new Schema({
 
 });
 
-
-
-
 alertSchema.set('timestamps', true); // include timestamps in docs
 
 // apply the mongoose unique validator plugin to widgetSchema
@@ -32,5 +29,4 @@ alertSchema.plugin(uniqueValidator);
 
 
 var Alert = mongoose.model('Alert', alertSchema);
-
 module.exports = Alert;

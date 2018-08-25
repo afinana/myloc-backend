@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"idmessage"
+			],
+			[
+				"mod",
+				"modules"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Development/Laboratory/My Projects/myloc-backend"
+	],
+	"file_history":
+	[
+		"/C/Development/Roche-Tizen/rpm-tizen-watch/SensorService/src/sqlite3.c",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-auth-provision-server/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-auth-provision-client/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-common/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-auth-provision/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-apns-connector/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-apns-connector-server/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-apns-libext-jdk16/pom.xml",
+		"/C/Development/Plataforma/git/t21_pushapp_server/java-mpns/pom.xml",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-landing-management-client/pom.xml",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-user-management/pom.xml",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-landing-management/pom.xml",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-landing-management-server/pom.xml",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-master/pom.xml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-api-gateway-server/pom.xml",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-ice-client/pom.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/ejemplo-sem/gemma-integration/gemma-integration/src/main/java/net/atos/gemma/certificates/GEMMACertificates.java",
+		"/C/Users/A407826/Desktop/PFA_Config.md",
+		"/C/Users/A407826/Documents/My Projects/ATOS/112-Extremadura/Pruebas_conectividad_5072018.md",
+		"/C/Users/A407826/Documents/My Received Files/Tablespaces.sql",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/SitremClient/pom.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/SitremClient/manifest.mf",
+		"/C/Users/A407826/Desktop/Tizen_comments.md",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/SitremClient/BroadcasterEA-unzip/META-INF/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.231/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.155/log4j.properties",
+		"/C/Users/A407826/Desktop/Maven_Copy_resources.md",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/.gitignore",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/pom.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/SitremGISClient/pom.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/EcallService/WebContent/META-INF/MANIFEST.MF",
+		"/C/Users/A407826/Documents/My Projects/Roche-Beacons/Roche_code_review.md",
+		"/C/Users/A407826/Desktop/report_tizen.md",
+		"/C/Users/A407826/Documents/My Projects/Roche-Beacons/Sonar-cube-how-to.md",
+		"/C/Users/A407826/Documents/My Projects/Roche-Beacons/source_issues.md",
+		"/C/Development/Roche-Tizen/rpm-tizen-watch/SensorService/sonar-project.properties",
+		"/C/Development/Tools/sonar/sonar-scanner/conf/sonar-scanner.properties",
+		"/C/Development/Tools/sonar/sonarqube-7.1/bin/windows-x86-64/InstallNTService.bat",
+		"/C/Development/Tools/sonar/sonarqube-7.1/conf/wrapper.conf",
+		"/C/Users/A407826/Documents/My Projects/Roche-Beacons/beacon_sample_bin.md",
+		"/C/Users/A407826/Documents/My Projects/Roche-Beacons/Files/03052018/beacon_data.bin",
+		"/C/Development/Plataforma/database/landing-page/SitremClient.md",
+		"/C/Development/Plataforma/database/landing-page/mwebnx_landing_tables.sql",
+		"/C/Development/servers/apache-tomcat-7.0.47/appconf/com.tempos21.mwebnx.landing.management.server.properties",
+		"/C/Users/A407826/Desktop/README_TOOLS_PLATAFORMA.md",
+		"/C/Users/A407826/Desktop/WS/ResourceService.cs",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/wsdl/wsdl/tenorio.wsdl",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-web-portal/pom.xml",
+		"/C/Users/A407826/Documents/My Projects/Plataforma/Password_base_datos.md",
+		"/C/Users/A407826/Documents/My Projects/Plataforma/portal_users.md",
+		"/C/Development/Plataforma/laboratory/zkoss/zkangular2-master/README.md",
+		"/C/Development/Plataforma/laboratory/zkoss/zkangular2-master/pom.xml",
+		"/C/Development/ATOS/GEMA-Galicia/GALICIA_112_Develop_WS/clientdb.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/wsdl/wsdl/tenorio_mock.wsdl",
+		"/C/Users/A407826/Desktop/saml_header.xml",
+		"/C/Users/A407826/Documents/My Projects/ATOS/112-Extremadura/SAML_Authentication_Process.md",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/wsdl/wsdl/ses112exchange.wsdl",
+		"/C/Users/A407826/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/EV2LOFFE/IntercambioSes[1].svc",
+		"/C/Development/ATOS/GEMA-Extremadura/wsdl/tenorio_mock.wsdl",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMCommitResource.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMCommonTypes.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMResponseToRequestInformation.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/wsdl/tenorio_mock.wsdl",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/wsdl/wsdl/ses112exchange.wsdl",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/tablespaces_extremadura (Raquel).sql",
+		"/C/Development/ATOS/GEMA-Extremadura/soap-ui/wsdl/wsdl/ses112exchange.wsdl",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-ice-soap-server/.project",
+		"/C/Users/A407826/Desktop/resource_response.xml",
+		"/C/Development/Plataforma/mwebnx_oauth_tables.sql",
+		"/C/Development/Plataforma/mvn_continue_install.md",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMResponseToRequestResource.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/CommonTypes.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/CustomTypes.xsd",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-ice-soap-server/.classpath",
+		"/C/Users/A407826/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/24MFEBSO/RCS.postman_collection.json",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMRequisitionResource.xsd",
+		"/C/Users/A407826/Desktop/mensaje_tenorio.xml",
+		"/C/Users/A407826/Desktop/mensaje_112.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMOfferUnsolicitedResource.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMRequestInformation.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMRequestResourceDeploymentStatus.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/edxl/rm/schema/EDXL-RMRequestResource.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/wsdl-v1.1/schema/EDXL-RMCommonTypes.xsd",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/src/main/resources/application.yml",
+		"/C/tmp/53453453",
+		"/C/Users/A407826/Desktop/Servidores_Emergencias.md",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/SitremClient/hibernate.cfg_alone_oracle.xml",
+		"/C/Users/A407826/Documents/My Projects/ATOS/SAML_Authentication_Process.md",
+		"/C/Users/A407826/Documents/My Projects/ATOS/users_vpn.md",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/22_mvn_install_mozillaswing.cmd",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/SitremClient/BroadcasterEA-unzip/META-INF/application.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/19_mvn_install_mozdom4java.cmd",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/20_mvn_install_mozilla-glue.cmd",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/21_mvn_install_mozilla-interfaces.cmd",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/11_mvn_install_gt-main-2.6-SNAPSHOT.cmd",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.781/MANIFEST.MF",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-web-modules/landing-page/dist/LandingPageNgx/index.html",
+		"/C/Development/Plataforma/git/t21_mwebnx_server/mwebnx-web-modules/landing-page/src/index.html",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.652/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.144/MANIFEST.MF",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/11_mvn_install_gt_main-2.6-SNAPSHOT.cmd",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.354/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.266/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.301/MANIFEST.MF",
+		"/C/Development/servers/apache-tomcat-7.0.47/conf/context.xml",
+		"/C/Development/servers/apache-tomcat-7.0.47/conf/server.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/bus-extremadura/start.cmd",
+		"/C/Users/A407826/Documents/My Projects/Plataforma/Curriculums-Factory/Pruebas de codigo/Carlos_Rodriguez_Nuñez/parking-spring-rest-service-h2/src/main/java/com/rest/parking/parkingspringrestserviceh2/model/Parking.java",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/3_mvn_install_geotransform.cmd",
+		"/C/Development/Plataforma/git/t21_pushapp_server/pushapp-master/pom.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/SitremClient/hs_err_pid9652.log",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.962/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.773/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.683/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.532/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.457/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.110/MANIFEST.MF",
+		"/C/Users/A407826/Documents/My Projects/Gema/112-Extremadura/TASKS/Sitrem_state_edxl.md",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.829/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.002/MANIFEST.MF",
+		"/C/Development/ATOS/GEMA-Extremadura/non-maven-libraries/4_mvn_install_jaxRPC16.cmd",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/BroadcasterServer/nbproject/project.xml",
+		"/C/Development/ATOS/GEMA-Extremadura/sitrem/BroadcasterServer/nbproject/project.properties",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.788/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.214/MANIFEST.MF",
+		"/C/Users/A407826/AppData/Local/Temp/Rar$DIa0.980/MANIFEST.MF",
+		"/C/Development/ATOS/GEMA-Extremadura/4_EXTREMADURA/SitremClient/adapter.properties"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "MyLocationBE.sublime-workspace",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

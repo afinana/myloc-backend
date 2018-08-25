@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         port: config.db.port,
         collections: [{
           name: 'widgets',
-          file: 'data/widgets.json',
+          file: 'data/data.json',
           jsonArray: true,
           drop: true
         }]

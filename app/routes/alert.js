@@ -3,7 +3,7 @@
 
 var mongoose = require('mongoose');
 var path = require('path');
-
+var log = require(path.join(__dirname, '../../log'));
 var config = require(path.join(__dirname, '../../config/config'));
 var Alert = mongoose.model('Alert');
 
@@ -19,16 +19,20 @@ module.exports = function (server) {
 
   function findDocuments(req, res, next) {
     // http://mongoosejs.com/docs/api.html#model_Model.find
+    
     var conditions = {};
     var projection = {};
     var options = {};
 
-    Widget.find(conditions, projection, options).sort({'name': 1}).exec(function (error, widgets) {
+    Alert.find(conditions, projection, options).sort({'name': 1}).exec(function (error, alerts) {
       if (error) {
+        log.info('findDocuments *******data:\n %s \n*******\n error:%s\n', alerts, error);
+
         return next(error);
       } else {
-        res.header('X-Total-Count', widgets.length);
-        res.send(200, widgets);
+        log.info('findDocuments *******data:\n %s', alerts);
+        res.header('X-Total-Count', alerts.length);
+        res.send(200, alerts);
         return next();
       }
     });
@@ -36,15 +40,19 @@ module.exports = function (server) {
 
   function findOneDocument(req, res, next) {
     // http://mongoosejs.com/docs/api.html#model_Model.findOne
-    var conditions = {'product_id': req.params.product_id};
+    var conditions = {'alert_id': req.params.alert_id};
     var projection = {};
     var options = {};
 
-    Widget.findOne(conditions, projection, options, function (error, widget) {
+    Alert.findOne(conditions, projection, options, function (error, alert) {
+
+      log.info('findOne *******data:\n %s \n*******\n error:%s\n', alert, error);
+
       if (error) {
         return next(error);
       } else {
-        res.send(200, widget);
+        
+        res.send(200, alert);
         return next();
       }
     });
@@ -62,15 +70,17 @@ module.exports = function (server) {
           info: req.params.info,
           state: req.params.state 
       });
-
-   
+    
+      
 
     // http://mongoosejs.com/docs/api.html#model_Model-save
-    widget.save(function (error, widget, numAffected) {
+    alert.save(function (error, myAlert) {
+      log.info('createDocument *******data:\n %s \n*******\n error:%s\n', myAlert, error);
+
       if (error) {
         return next(error);
       } else {
-        res.send(201, widget);
+        res.send(201, myAlert);
         return next();
       }
     });
@@ -78,7 +88,7 @@ module.exports = function (server) {
 
   function updateDocument(req, res, next) {
     // http://mongoosejs.com/docs/api.html#model_Model.findOneAndUpdate
-      var conditions = { 'alert_id': req.params.alert_id};
+    var conditions = { 'alert_id': req.params.alert_id};
     var update = {
       'name': req.params.name,
       'user_id': req.params.user_id,
@@ -89,7 +99,8 @@ module.exports = function (server) {
     };
     var options = {runValidators: true, context: 'query'};
 
-    Widget.findOneAndUpdate(conditions, update, options, function (error) {
+    Alert.findOneAndUpdate(conditions, update, options, function (error) {
+      
       if (error) {
         return next(error);
       } else {
@@ -101,9 +112,9 @@ module.exports = function (server) {
 
   function deleteDocument(req, res, next) {
     // http://mongoosejs.com/docs/api.html#query_Query-remove
-    var options = {'product_id': req.params.product_id};
+    var options = {'alert_id': req.params.alert_id};
 
-    Widget.remove(options, function (error) {
+    Alert.remove(options, function (error) {
       if (error) {
         return next(error);
       } else {

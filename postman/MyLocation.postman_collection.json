@@ -1,16 +1,16 @@
 {
 	"variables": [],
 	"info": {
-		"name": "Widgets",
+		"name": "MyLocations",
 		"_postman_id": "b0554bde-d0fe-448d-3203-4bbb95e54c96",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "/widgets",
+			"name": "/alerts",
 			"request": {
-				"url": "http://{{hostname}}:{{port}}/widgets",
+				"url": "http://{{hostname}}:{{port}}/alerts",
 				"method": "GET",
 				"header": [
 					{
@@ -28,9 +28,9 @@
 			"response": []
 		},
 		{
-			"name": "/widgets/N212QZOD9B",
+			"name": "/alerts/N212QZOD9B",
 			"request": {
-				"url": "http://{{hostname}}:{{port}}/widgets/N212QZOD9B",
+				"url": "http://{{hostname}}:{{port}}/alerts/N212QZOD9B",
 				"method": "GET",
 				"header": [
 					{
@@ -48,9 +48,9 @@
 			"response": []
 		},
 		{
-			"name": "/widgets/N212QZOD9B",
+			"name": "/alerts/N212QZOD9B",
 			"request": {
-				"url": "http://{{hostname}}:{{port}}/widgets/N212QZOD9B",
+				"url": "http://{{hostname}}:{{port}}/alerts/N212QZOD9B",
 				"method": "DELETE",
 				"header": [
 					{
@@ -68,9 +68,9 @@
 			"response": []
 		},
 		{
-			"name": "/widgets",
+			"name": "/alerts",
 			"request": {
-				"url": "http://{{hostname}}:{{port}}/widgets",
+				"url": "http://{{hostname}}:{{port}}/alerts",
 				"method": "POST",
 				"header": [
 					{
@@ -93,9 +93,9 @@
 			"response": []
 		},
 		{
-			"name": "/widgets",
+			"name": "/alerts",
 			"request": {
-				"url": "http://{{hostname}}:{{port}}/widgets",
+				"url": "http://{{hostname}}:{{port}}/alerts",
 				"method": "PUT",
 				"header": [
 					{
